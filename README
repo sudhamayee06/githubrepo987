@@ -1,0 +1,10 @@
+Q: Data Engineer
+
+The Fremont Coffee Company is testing some new flavors of Coffee with five specific flavor attributes
+Properties of a coffee product: peppery, light, smooth, sweetened and dark
+They need to create a data frame that returns the purchases by attribute which will help in analyzing this data.
+
+For this purpose, implement the function: transform_df in starter.py
+There is an additional question at the end of starter.py. The answer to which must be written in improvements.txt.
+
+

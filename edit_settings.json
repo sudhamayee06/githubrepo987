@@ -1,0 +1,34 @@
+
+{  
+   "active":[{"username":"snapwiz","path":"/home/{{userName}}/project/application/README","focused":false}, {"username":"snapwiz","path":"/home/{{userName}}/project/application/starter.py","focused":true}],
+   "projects":[  
+      {  
+         "name":"coffee_company",
+         "path":"\/home\/{{userName}}\/project\/application",
+         "container_id":"testContainerId",
+         "collaboration":false,
+         "source":"{{xtermUrl}}",
+         "build":true,
+         "browser":false,
+         "readOnlyFolders":["/home/{{userName}}/project/application/README"],
+         "build_command":"cd /home/{{userName}}/project/application;python3 starter.py",
+	 "downloadOptions" : {
+            "include" : [
+               {
+                  "source" : "/root/setup/evaluation",
+                  "dest" : "/"
+               }
+            ]
+         },
+         "uploadOptions" : {
+            "include" : [
+               {
+                  "dest" : "/root/setup/",
+                  "source" : "evaluation"
+               }
+            ]
+         }
+      }
+   ]
+}
+
